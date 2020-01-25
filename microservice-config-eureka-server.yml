@@ -18,7 +18,7 @@ eureka:
     prefer-ip-address: true #访问路径就会显示成IP地址 - 在鼠标在页面上悬浮时，浏览器左下角显示成IP地址
   client:
     registerWithEureka: false # 服务注册，false表示不将自已注册到Eureka服务中
-    fetchRegistry: true # 服务发现，false表示自己不从Eureka服务中获取注册信息
+    fetchRegistry: false # 服务发现，false表示自己不从Eureka服务中获取注册信息
   server:
     enable-self-preservation: false # 禁用自我保护机制 ************
 
@@ -38,6 +38,6 @@ eureka:
     prefer-ip-address: true #访问路径就会显示成IP地址 - 在鼠标在页面上悬浮时，浏览器左下角显示成IP地址
   client:
     registerWithEureka: false # 服务注册，false表示不将自已注册到Eureka服务中
-    fetchRegistry: true # 服务发现，false表示自己不从Eureka服务中获取注册信息
+    fetchRegistry: false # 服务发现，false表示自己不从Eureka服务中获取注册信息
   server:
     enable-self-preservation: true # 启用自我保护机制 ************
